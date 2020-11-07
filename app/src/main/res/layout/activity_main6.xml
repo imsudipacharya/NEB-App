@@ -1,0 +1,479 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Main6Activity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/url"
+        android:visibility="gone"/>
+
+    <WebView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/webview"
+        android:visibility="gone"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#3B3F40"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="#000">
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="NEPALI XI&amp;XII"
+                    android:background="#000000"
+                    android:textColor="#FFFFFF"
+                    android:textStyle="bold"
+                    android:textSize="20dp"
+
+                    android:layout_gravity="center"/>
+
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="#000">
+
+                <Button
+                    android:id="@+id/chapter1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="नेपालै नरहे - माधव घिमिरे"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:textSize="20dp"
+
+                    android:layout_gravity="center"/>
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="#000">
+
+                <Button
+                    android:id="@+id/chapter2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="छिमेकी - गुरुप्रसाद मैनाली "
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:textSize="20dp"
+
+                    android:layout_gravity="center"/>
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="#000">
+
+                <Button
+                    android:id="@+id/chapter3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="आइमाई साथी - श्यामप्रसाद शर्मा"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:textSize="20dp"
+
+                    android:layout_gravity="center"/>
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="#000">
+
+                <Button
+                    android:id="@+id/chapter4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="मधुमालतीको कथा - रमेश विकल"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:textSize="20dp"
+
+                    android:layout_gravity="center"/>
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="#000">
+
+                <Button
+                    android:id="@+id/chapter5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="भलादमी - लक्ष्मीप्रसाद देवकोटा"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:textSize="20dp"
+
+                    android:layout_gravity="center"/>
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="#000">
+
+                <Button
+                    android:id="@+id/chapter6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="हर्कबहादुर - दिनेश अधिकारी"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:textSize="20dp"
+
+                    android:layout_gravity="center"/>
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="#000">
+
+                <Button
+                    android:id="@+id/chapter7"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="एक चिहान: एक-सोह्र परिच्छेद - हृदयचन्द्रसिंह प्रधान"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:textSize="20dp"
+
+                    android:layout_gravity="center"/>
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="#000">
+
+                <Button
+                    android:id="@+id/chapter8"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="म फूल लिएर आउने छु - सुधा त्रिपाठी"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:textSize="20dp"
+
+                    android:layout_gravity="center"/>
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="#000">
+
+                <Button
+                    android:id="@+id/chapter9"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="मानुषी - विष्णुकुमारी वाइबा (पारिजात)"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:textSize="20dp"
+
+                    android:layout_gravity="center"/>
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="#000">
+
+                <Button
+                    android:id="@+id/chapter10"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="रातभरि हुरी चल्यो - इन्द्रबहादुर राई"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:textSize="20dp"
+
+                    android:layout_gravity="center"/>
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="#000">
+
+                <Button
+                    android:id="@+id/chapter11"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="मेरो देश - भूपी शेरचन"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:textSize="20dp"
+
+                    android:layout_gravity="center"/>
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="#000">
+
+                <Button
+                    android:id="@+id/chapter12"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="आलु - भैरव अर्याल"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:textSize="20dp"
+
+                    android:layout_gravity="center"/>
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="#000">
+
+                <Button
+                    android:id="@+id/chapter13"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="शत्रु - बिश्वेश्वरप्रसाद कोइराला"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:textSize="20dp"
+
+                    android:layout_gravity="center"/>
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="#000">
+
+                <Button
+                    android:id="@+id/chapter14"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="एक चिहान : सत्र-एकतिस परिच्छेद - हृदयचन्द्रसिंह प्रधान"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:textSize="20dp"
+
+                    android:layout_gravity="center"/>
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="#000">
+
+                <Button
+                    android:id="@+id/chapter15"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="हारजित - भवानी भिक्षु "
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:textSize="20dp"
+
+                    android:layout_gravity="center"/>
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="#000">
+
+                <Button
+                    android:id="@+id/chapter16"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="खाघ सङ्कट र जैविक विविधता"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:textSize="20dp"
+
+                    android:layout_gravity="center"/>
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="#000">
+
+                <Button
+                    android:id="@+id/chapter17"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="नालापानीमा - बालकृष्ण सम"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:textSize="20dp"
+
+                    android:layout_gravity="center"/>
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="#000">
+
+                <Button
+                    android:id="@+id/chapter18"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="कान्छी, भट्टी र देश - कृष्ण सेन"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:textSize="20dp"
+
+                    android:layout_gravity="center"/>
+
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="#000">
+
+                <Button
+                    android:id="@+id/chapter19"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="बौलाहा काजीको सपना - विजय मल्ल"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:textSize="20dp"
+
+                    android:layout_gravity="center"/>
+
+
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

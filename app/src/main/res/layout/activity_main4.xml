@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Main4Activity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/url"
+        android:visibility="gone"/>
+
+    <WebView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/webview"
+        android:visibility="gone"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#673AB7"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="#000">
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Linked English"
+                    android:background="#A473FB"
+                    android:textColor="#F6F6F6"
+                    android:textStyle="bold"
+                    android:textSize="20dp"
+
+                    android:layout_gravity="center"/>
+
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="#000">
+
+                <Button
+                    android:id="@+id/chapter1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Arranging Words in Alphabetical Order"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:textSize="20dp"
+
+                    android:layout_gravity="center"/>
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="#000">
+
+                <Button
+                    android:id="@+id/chapter2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Quarter and Guide Word – Finding Word in Dictionary"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:textSize="20dp"
+
+                    android:layout_gravity="center"/>
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="#000">
+
+                <Button
+                    android:id="@+id/chapter3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Checking Spelling â€“ Link English"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:textSize="20dp"
+
+                    android:layout_gravity="center"/>
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="#000">
+
+                <Button
+                    android:id="@+id/chapter4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Words often Confused â€“ Grammar"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:textSize="20dp"
+
+                    android:layout_gravity="center"/>
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="#000">
+
+                <Button
+                    android:id="@+id/chapter5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Finding Meanings of Words in Dictionary"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:textSize="20dp"
+
+                    android:layout_gravity="center"/>
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="#000">
+
+                <Button
+                    android:id="@+id/chapter6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Structures with Verbs / Jumbled Words"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:textSize="20dp"
+
+                    android:layout_gravity="center"/>
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="#000">
+
+                <Button
+                    android:id="@+id/chapter7"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Conjunctions â€“ Grammar | Link English"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:textSize="20dp"
+
+                    android:layout_gravity="center"/>
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="#000">
+
+                <Button
+                    android:id="@+id/chapter8"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Comparisons and Word Formation â€“ Grammar"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:textSize="20dp"
+
+                    android:layout_gravity="center"/>
+
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

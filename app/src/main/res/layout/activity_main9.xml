@@ -1,0 +1,395 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".WorkBook">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/url"
+        android:visibility="gone"/>
+
+    <WebView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/webview"
+        android:visibility="gone"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#F4A734"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="#000">
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="CLASS 12 Meaning into words"
+                    android:background="#BA7002"
+                    android:textColor="#0B0A0A"
+                    android:textStyle="bold"
+                    android:textSize="20dp"
+
+                    android:layout_gravity="center"/>
+
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="#000">
+
+                <Button
+                    android:id="@+id/chapter1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Unit 1"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:textSize="20dp"
+
+                    android:layout_gravity="center"/>
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="#000">
+
+                <Button
+                    android:id="@+id/chapter2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Unit 2"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:textSize="20dp"
+
+                    android:layout_gravity="center"/>
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="#000">
+
+                <Button
+                    android:id="@+id/chapter3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Unit 3"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:textSize="20dp"
+
+                    android:layout_gravity="center"/>
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="#000">
+
+                <Button
+                    android:id="@+id/chapter4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Unit 4"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:textSize="20dp"
+
+                    android:layout_gravity="center"/>
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="#000">
+
+                <Button
+                    android:id="@+id/chapter5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Unit 5"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:textSize="20dp"
+
+                    android:layout_gravity="center"/>
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="#000">
+
+                <Button
+                    android:id="@+id/chapter6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Unit 6"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:textSize="20dp"
+
+                    android:layout_gravity="center"/>
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="#000">
+
+                <Button
+                    android:id="@+id/chapter7"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Unit 7"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:textSize="20dp"
+
+                    android:layout_gravity="center"/>
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="#000">
+
+                <Button
+                    android:id="@+id/chapter8"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Unit 8"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:textSize="20dp"
+
+                    android:layout_gravity="center"/>
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="#000">
+
+                <Button
+                    android:id="@+id/chapter9"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Unit 9"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:textSize="20dp"
+
+                    android:layout_gravity="center"/>
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="#000">
+
+                <Button
+                    android:id="@+id/chapter10"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Unit 10"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:textSize="20dp"
+
+                    android:layout_gravity="center"/>
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="#000">
+
+                <Button
+                    android:id="@+id/chapter11"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Unit 11"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:textSize="20dp"
+
+                    android:layout_gravity="center"/>
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="#000">
+
+                <Button
+                    android:id="@+id/chapter12"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Unit 12"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:textSize="20dp"
+
+                    android:layout_gravity="center"/>
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="#000">
+
+                <Button
+                    android:id="@+id/chapter13"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Unit 13"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:textSize="20dp"
+
+                    android:layout_gravity="center"/>
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="#000">
+
+                <Button
+                    android:id="@+id/chapter14"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Unit 14"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:textSize="20dp"
+
+                    android:layout_gravity="center"/>
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="#000">
+
+                <Button
+                    android:id="@+id/chapter15"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Unit 15"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:textSize="20dp"
+
+                    android:layout_gravity="center"/>
+
+
+
+            </LinearLayout>
+
+
+
+
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

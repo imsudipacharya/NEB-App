@@ -1,0 +1,656 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Main2Activity">
+
+
+  <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:id="@+id/url"
+      android:visibility="gone"/>
+
+    <WebView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/webview"
+        android:visibility="gone"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#029FB3"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="#000">
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="CLASS 11 MAGIC OF WORDS"
+                android:background="#7FE7F4"
+                android:textColor="#3F51B5"
+                android:textStyle="bold"
+                android:textSize="20dp"
+
+                android:layout_gravity="center"/>
+
+
+
+        </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#000">
+
+        <Button
+            android:id="@+id/chapter1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="The Recurring Dream"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:textSize="20dp"
+
+            android:layout_gravity="center"/>
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#000">
+
+        <Button
+            android:id="@+id/chapter2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="The Lost Doll"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:textSize="20dp"
+
+            android:layout_gravity="center"/>
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#000">
+
+        <Button
+            android:id="@+id/chapter3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Fear"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:textSize="20dp"
+
+            android:layout_gravity="center"/>
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#000">
+
+        <Button
+            android:id="@+id/chapter4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="The Loving Mother"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:textSize="20dp"
+
+            android:layout_gravity="center"/>
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#000">
+
+        <Button
+            android:id="@+id/chapter5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="The House Call"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:textSize="20dp"
+
+            android:layout_gravity="center"/>
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#000">
+
+        <Button
+            android:id="@+id/chapter6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="My Heart Leaps Up When I Behold"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:textSize="20dp"
+
+            android:layout_gravity="center"/>
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#000">
+
+        <Button
+            android:id="@+id/chapter7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Speaking of Children"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:textSize="20dp"
+
+            android:layout_gravity="center"/>
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#000">
+
+        <Button
+            android:id="@+id/chapter8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Look at a Tea Cup"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:textSize="20dp"
+
+            android:layout_gravity="center"/>
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#000">
+
+        <Button
+            android:id="@+id/chapter9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="A Worn Path"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:textSize="20dp"
+
+            android:layout_gravity="center"/>
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#000">
+
+        <Button
+            android:id="@+id/chapter10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="The Three Day Blow"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:textSize="20dp"
+
+            android:layout_gravity="center"/>
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#000">
+
+        <Button
+            android:id="@+id/chapter11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="The Poplar Field"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:textSize="20dp"
+
+            android:layout_gravity="center"/>
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#000">
+
+        <Button
+            android:id="@+id/chapter12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="The Nightmare Life Without Fuel"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:textSize="20dp"
+
+            android:layout_gravity="center"/>
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#000">
+
+        <Button
+            android:id="@+id/chapter13"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Unchopping a Tree"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:textSize="20dp"
+
+            android:layout_gravity="center"/>
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#000">
+
+        <Button
+            android:id="@+id/chapter14"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Keeping Things Whole"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:textSize="20dp"
+
+            android:layout_gravity="center"/>
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#000">
+
+        <Button
+            android:id="@+id/chapter15"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Concrete Cat"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:textSize="20dp"
+
+            android:layout_gravity="center"/>
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#000">
+
+        <Button
+            android:id="@+id/chapter16"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Oops! Howâ€™s That Again?"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:textSize="20dp"
+
+            android:layout_gravity="center"/>
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#000">
+
+        <Button
+            android:id="@+id/chapter17"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Malini"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:textSize="20dp"
+
+            android:layout_gravity="center"/>
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#000">
+
+        <Button
+            android:id="@+id/chapter18"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="The Six Million Dollar Man"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:textSize="20dp"
+
+            android:layout_gravity="center"/>
+
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#000">
+
+        <Button
+            android:id="@+id/chapter19"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="On the Vanity of Earthly Greatness"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:textSize="20dp"
+
+            android:layout_gravity="center"/>
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#000">
+
+        <Button
+            android:id="@+id/chapter20"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="In Bed"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:textSize="20dp"
+
+            android:layout_gravity="center"/>
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#000">
+
+        <Button
+            android:id="@+id/chapter21"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="The Gardener"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:textSize="20dp"
+
+            android:layout_gravity="center"/>
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#000">
+
+        <Button
+            android:id="@+id/chapter22"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Summary Writing | Creative Writing Section"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:textSize="20dp"
+
+            android:layout_gravity="center"/>
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#000">
+
+        <Button
+            android:id="@+id/chapter23"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Essay Writing | Creative Writing Section"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:textSize="20dp"
+
+            android:layout_gravity="center"/>
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#000">
+
+        <Button
+            android:id="@+id/chapter24"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Newspaper Article | Creative Writing Section"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:textSize="20dp"
+
+            android:layout_gravity="center"/>
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#000">
+
+        <Button
+            android:id="@+id/chapter25"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Film Review | Creative Writing Section"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:textSize="20dp"
+
+            android:layout_gravity="center"/>
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#000">
+
+        <Button
+            android:id="@+id/chapter26"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Letter to Editor | Creative Writing Section"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:textSize="20dp"
+
+            android:layout_gravity="center"/>
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#000">
+
+        <Button
+            android:id="@+id/chapter27"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nine Easy Steps to Get Good Marks in Exam | Tips and Tricks"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:textSize="20dp"
+
+            android:layout_gravity="center"/>
+
+
+
+    </LinearLayout>
+
+
+
+    </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
